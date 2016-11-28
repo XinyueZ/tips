@@ -381,6 +381,9 @@
 }, {
     "title": "Force push to Remote Repository",
     "tip": "git push -f <remote-name> <branch-name>"
+},{
+    "title": "Quick push to Remote Repository",
+    "tip": "git push <remote-name> HEAD"
 }, {
     "title": "Adding Remote name",
     "tip": "git remote add <remote-nickname> <remote-url>"
