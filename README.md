@@ -148,6 +148,7 @@ P.S: All these commands are tested on `git version 2.7.4 (Apple Git-66)`.
 * [Add everything, but whitespace changes](#add-everything-but-whitespace-changes)
 * [Edit [local/global] git config](#edit-localglobal-git-config)
 * [blame on certain range](#blame-on-certain-range)
+* [Quick push to Remote Repository](#quick-push-remote)
 
 <!-- Don’t remove or change the comment below – that can break automatic updates. More info at <http://npm.im/doxie.inject>. -->
 <!-- @doxie.inject end toc -->
@@ -1012,6 +1013,11 @@ git config [--global] --edit
 ## blame on certain range
 ```sh
 git blame -L <start>,<end>
+```
+
+## Quick push to Remote Repository
+```sh
+git push <remote-name> HEAD
 ```
 
 <!-- Don’t remove or change the comment below – that can break automatic updates. More info at <http://npm.im/doxie.inject>. -->
